@@ -20,7 +20,7 @@
  /* Header style */
 
 .bannerhead{
-  background-image: url(images/banner/banner2.png);
+  background-image: url('images/banner/banner2.png');
   background-size: cover;
   background-position: center;
   height: 669px;
@@ -138,7 +138,7 @@
 
 /*poster start*/
 .b1{
-  background-image: linear-gradient(to bottom, rgba(22, 43, 161, 0.52), rgba(117, 19, 93, 0.73)),url(images/watch.png) ;
+  background-image: linear-gradient(to bottom, rgba(22, 43, 161, 0.52), rgba(117, 19, 93, 0.73)),url('images/watch.png') ;
   
   background-size: cover;
   background-position: center;
