@@ -76,13 +76,14 @@
 .brandingmodal{
   width: 569px;
   height: 723px;
-  padding: 130px 20px 130px 100px;
+  padding: 130px 160px 130px 50px;
 }
 
 .brand_summary{
   width: 569px;
   height: 723px;
-  padding: 370px 300px 214px 87px;
+  
+  padding: 370px 30px 24px 87px;
   
 }
 .brand_summary_title{
@@ -188,7 +189,39 @@
   height: 60px;
   text-align: center;
 }
-  /*poster end*/
+      /*poster end*/
+      /*Contact Me Start*/
+      .contact-me{
+        width: 100%;
+        height: 290px;
+        background: #191919;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }  
+
+      .contact-me p{
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 25px;
+      }
+
+      .contact-me .button-two{
+        background-color: #F15B22;
+        color: #ffffff;
+        text-decoration: none;
+        border: 2px solid;
+        font-weight: bold;
+        padding: 13px 30px;
+        border-radius: 30px;
+
+      }
+
+      /*Contact Me End*/
+
+
       /* footer start */
 
 .contact{
@@ -208,7 +241,7 @@ footer{
   padding: 130px 330px 130px 100px;
 }
 .fil{
-  padding: 130px 530px 240px 0px;
+  padding: 130px 380px 240px 0px;
 }
 .fil-title{
   padding-bottom: 30px;
@@ -222,8 +255,10 @@ footer{
   height: 2px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: left;
+  color: #ffffff ;
+  border-color: #F15B22;
   background-color: rgb(6, 6, 6);
 }
 .footer-btn{
