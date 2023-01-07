@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.btn_primary{
+  background: #F15B22;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  padding: 16px 20px;
+  height: 64px;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+}
+
+ /* Header style */
+
+.bannerhead{
+  background-image: url(/images/banner/banner2.png);
+  background-size: cover;
+  background-position: center;
+  height: 669px;
+  width: 1350px;
+  min-height: auto;
+  align-items: center;
+  justify-content: center;
+}
+.bannerheader{
+  text-align: right;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 160px;
+  padding-right: 100px;
+}
+.banner_title{
+  font-family: 'Work Sans';
+  ont-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: rgb(0, 0, 0);
+
+}
+.Banner_sub_title{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 26px;
+  text-align: right;
+}
+  /* Header style End */
+/* My failures */
+
+.brandinghead{
+  display: flex;
+  justify-content: space-between;
+  width: 1350px;
+}
+.brand_content{
+  color: #605a5a;
+  list-style-type: none;
+  font-size: 15px;
+  line-height: 20px;
+
+  }
+
+  .brand_content li:before {
+    content: '✓';
+  }
+.brandingmodal{
+  width: 569px;
+  height: 723px;
+  padding: 130px 20px 130px 100px;
+}
+
+.brand_summary{
+  width: 569px;
+  height: 723px;
+  padding: 370px 300px 214px 87px;
+  
+}
+.brand_summary_title{
+  font-weight: 800;
+  font-size: 40px;
+  color: #151414;
+}
+.brand_summary_title_content{
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+  /* My failures End */
+
+      /* My Plans  */
+
+.branding-title{
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+  width: 1350px;
+}        
+.want{
+  display: flex;
+  padding: 50px 230px 130px 230px;
+  width: 850px;
+  height: 202px;
+  justify-content: space-around;
+
+}
+.sub-branding-details{
+  font-weight: 900;
+  font-size: 30px;
+  color: #151414;
+  text-align: center;
+  white-space: nowrap;
+}
+.sub-content{
+  color: #1a1818;
+  text-align: center;
+ 
+}
+.want-details{
+  text-align: center;
+  padding-left: 66px;
+  padding-right: 66px;
+  
+}
+
+/*End My Plans*/
+
+/*poster start*/
+.b1{
+  background-image: linear-gradient(to bottom, rgba(22, 43, 161, 0.52), rgba(117, 19, 93, 0.73)),url(/images/watch.png) ;
+  
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 1140px;
+  left: 230px;
+  top: 2216px;
+  margin: 50px 250px 120px 110px;
+  min-height: auto;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 8px;
+}
+
+
+.b2{
+  text-align: left;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 65px;
+  margin-top: 60px;
+  padding-left: 70px;
+  
+}
+.b3{
+  font-family: 'Work Sans';
+  ont-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  padding-bottom: 20px;
+  line-height: 60px;
+  text-align:left ;
+  color: rgb(0, 0, 0);
+
+}
+.btn_poster{
+  background: #ffffff;
+  color: #F15B22;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  padding: 14px 18px;
+  height: 50px;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+}
+  /*poster end*/
+      /* footer start */
+
+.contact{
+
+font-weight: 900;
+  
+}
+footer{
+
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 1600px;
+  height: 577px;
+}
+.details{
+  padding: 130px 330px 130px 100px;
+}
+.fil{
+  padding: 130px 530px 240px 0px;
+}
+.fil-title{
+  padding-bottom: 30px;
+}
+.info-contact{
+  padding-top: 16px;
+  padding-bottom: 34px;
+}
+.sub-contact-info{
+  width: 250px;
+  height: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  text-align: left;
+  background-color: rgb(6, 6, 6);
+}
+.footer-btn{
+  background: #ffffff;
+  color:#F15B22;;
+  border-radius: 8px;
+  width: 80px;
+  height: 40px;
+  font-weight: 600;
+
+  
+}
+
+
+/*Footer End*/
